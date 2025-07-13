@@ -1,0 +1,596 @@
+---
+layout: default
+title: "Inicio"
+---
+
+<!-- Hero Section -->
+<div class="hero-section py-5 mb-12 text-white">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-3 text-center text-md-start mb-4 mb-md-0">
+                <img src="{{ '/assets/images/00_Ico1.png' | relative_url }}" alt="Logo de la materia" class="img-fluid"
+                    style="max-height: 150px;">
+            </div>
+            <div class="col-md-8 text-center text-md-start">
+                <h1 class="display-4 fw-bold mb-3">Integración y automatización de Procesos</h1>
+                <p class="lead mb-4">Facultad de Ciencias Exactas, UNICEN</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#materiales" class="btn btn-light btn-lg px-4">
+                        <i class="bi bi-journal-text me-2"></i>Materiales
+                    </a>
+                    <a href="#contacto" class="btn btn-outline-light btn-lg px-4">
+                        <i class="bi bi-envelope me-2"></i>Contacto
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- Course Overview -->
+    <section class="card mb-4">
+        <div class="card-body">
+            <h2 class="card-title h4">Descripción</h2>
+            <p class="card-text">
+                El curso busca desarrollar en los estudiantes habilidades para diseñar e
+                implementar soluciones tecnológicas que integren y automaticen procesos
+                mediante la conexión de diversas aplicaciones.
+            </p>
+            <p class="card-text">Se abordarán conceptos fundamentales para analizar y
+                construir flujos de trabajo que combinen datos estructurados y
+                no estructurados, automatización basada en reglas e integración de
+                herramientas digitales.
+            </p>
+            <p class="card-text">Además, se aplicarán principios de comunicación de datos e inteligencia artificial
+                generativa para optimizar tareas y apoyar la toma de decisiones en entornos profesionales.
+            </p>
+        </div>
+    </section>
+
+    <!-- Quick Access Cards -->
+    <section id="materiales" class="mb-5">
+        <div class="section-header d-flex align-items-center mb-4">
+            <i class="bi bi-collection-play-fill text-primary me-3" style="font-size: 1.75rem;"></i>
+            <h2 class="h4 mb-0">Acceso Rápido</h2>
+        </div>
+        <div class="row">
+            <!-- Plan de la materia -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-journal-text text-primary" style="font-size: 3rem;"></i>
+                        </div>
+                        <h2 class="card-title h4">Plan de la materia</h2>
+                        <a href="{{ '/assets/pdfs/plan.pdf' | relative_url }}" target="_blank"
+                            class="btn btn-outline-primary mt-2">
+                            <i class="bi bi-download me-2"></i>Descargar Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Docentes -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-people text-primary" style="font-size: 3rem;"></i>
+                        </div>
+                        <h2 class="card-title h4">Docentes</h2>
+                        <div class="teacher-list mb-3">
+                            <a href="#" class="d-block mb-2" data-bs-toggle="modal" data-bs-target="#florModal">
+                                <i class="bi bi-person-fill me-2"></i>Florencia Rodríguez
+                            </a>
+                            <a href="#" class="d-block" data-bs-toggle="modal" data-bs-target="#crisModal">
+                                <i class="bi bi-person-fill me-2"></i>Cristian Garcia Bauza
+                            </a>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+                            data-bs-target="#contactModal">
+                            <i class="bi bi-envelope me-2"></i>Contactar
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chatbot -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="mb-3"
+                            style="height: 80px; display: flex; justify-content: center; align-items: center;">
+                            <img src="{{ '/assets/images/00_Bauzy.png' | relative_url }}" alt="Chatbot Bauzy"
+                                style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                        </div>
+                        <h2 class="card-title h4">Preguntas Frecuentes</h2>
+                        <p class="text-muted small mb-3">Bauzy responde tus consultas</p>
+                        <a href="https://openai-assistants-quickstart-1.vercel.app/examples/basic-chat" target="_blank"
+                            class="btn btn-outline-primary">
+                            <i class="bi bi-chat-dots me-2"></i>Hablar con Bauzy
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Objectives -->
+    <section class="card mb-5 shadow-sm">
+        <div class="card-body">
+            <div class="section-header d-flex align-items-center mb-4">
+                <i class="bi bi-bullseye text-primary me-3" style="font-size: 1.75rem;"></i>
+                <h2 class="h4 mb-0">Objetivos</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <i class="bi bi-arrow-repeat text-primary me-3 mt-1"></i>
+                        <div>
+                            <h3 class="h6 fw-bold">Integración de Procesos</h3>
+                            <p class="small">Conectar sistemas y aplicaciones para flujos de trabajo eficientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <i class="bi bi-robot text-primary me-3 mt-1"></i>
+                        <div>
+                            <h3 class="h6 fw-bold">Automatización</h3>
+                            <p class="small">Eliminar tareas repetitivas mediante la automatización.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Structure -->
+    <section class="mb-5">
+        <div class="section-header d-flex align-items-center mb-4">
+            <i class="bi bi-diagram-3-fill text-primary me-3" style="font-size: 1.75rem;"></i>
+            <h2 class="h4 mb-0">Estructura de la Cursada</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-icon bg-primary text-white">
+                                    <i class="bi bi-lightbulb"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h4 class="h6 fw-bold">Second Brain</h4>
+                                    <p class="text-muted mb-0">Notion + Second Brain</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-icon bg-primary text-white">
+                                    <i class="bi bi-plug"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h4 class="h6 fw-bold">Conexiones API</h4>
+                                    <p class="text-muted mb-1">Integración de OpenAI con Colab - Chatbot</p>
+                                    <p class="text-muted mb-0">GPT y acciones</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-icon bg-primary text-white">
+                                    <i class="bi bi-robot"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h4 class="h6 fw-bold">Automatización</h4>
+                                    <p class="text-muted mb-1">RelevanceAI + APIs</p>
+                                    <p class="text-muted mb-1">BrowserAI + HTML</p>
+                                    <p class="text-muted mb-0">Integración de Gmail, Gemini, Drive, Notion, Slack</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-icon bg-primary text-white">
+                                    <i class="bi bi-trophy"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h4 class="h6 fw-bold">Proyecto Final</h4>
+                                    <p class="text-muted mb-1">Presentación de proyecto final</p>
+                                    <p class="text-muted mb-0">Vercel + GitHub + OpenAI / RelevanceAI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contacto con docentes</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><i class="bi bi-envelope me-2"></i> email@example.com</p>
+                <p><i class="bi bi-calendar-week me-2"></i> Horario de consulta: A confirmar</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contacto con docentes</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><i class="bi bi-envelope me-2"></i> email@example.com</p>
+                <p><i class="bi bi-calendar-week me-2"></i> Horario de consulta: A confirmar</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Custom Styles -->
+<style>
+    :root {
+        --primary-color: #4a1a6a;
+        /* Deep Purple */
+        --secondary-color: #6a2c82;
+        /* Medium Purple */
+        --accent-color: #9c4dca;
+        /* Light Purple */
+        --light-color: #f3e5f5;
+        /* Very Light Purple */
+    }
+
+    /* Navbar */
+    .navbar {
+        background-color: var(--primary-color) !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 0.8rem 1rem;
+    }
+
+    .navbar-brand {
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    .navbar-brand:hover {
+        color: var(--light-color) !important;
+        transform: translateY(-1px);
+    }
+
+    .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, 0.85) !important;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        transition: all 0.2s ease;
+    }
+
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus {
+        color: white !important;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-toggler {
+        border: none;
+        padding: 0.5rem;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+    }
+
+    /* Hero Section */
+    .hero-section {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
+        padding: 4rem 0;
+        margin: 3rem 0;
+        border-radius: 1rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        opacity: 0.5;
+    }
+
+    .hero-section>.container {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Cards */
+    .card {
+        transition: all 0.3s ease;
+        border: none;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.75rem;
+        overflow: hidden;
+        border-top: 4px solid var(--primary-color);
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+    }
+
+    /* Buttons */
+    .btn-primary {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    .btn-primary:hover {
+        background-color: var(--secondary-color);
+        border-color: var(--secondary-color);
+    }
+
+    .btn-outline-primary {
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    .btn-outline-primary:hover {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    /* Links */
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+    }
+
+    /* Timeline */
+    .timeline {
+        position: relative;
+        padding-left: 2.5rem;
+        border-left: 2px solid #e9ecef;
+    }
+
+    .timeline-item {
+        position: relative;
+        padding-bottom: 2rem;
+    }
+
+    .timeline-item:last-child {
+        padding-bottom: 0;
+    }
+
+    .timeline-icon {
+        position: absolute;
+        left: -2.75rem;
+        top: 0;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.875rem;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+        background-color: var(--primary-color);
+        color: white;
+    }
+
+    .timeline-content {
+        flex: 1;
+    }
+
+    /* Back to top button */
+    .back-to-top {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 1000;
+    }
+
+    .back-to-top.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .back-to-top:hover {
+        background-color: var(--secondary-color);
+        transform: translateY(-3px);
+        color: white;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 767.98px) {
+        .hero-section {
+            margin-top: -1rem;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 1.75rem;
+        }
+
+        .timeline {
+            padding-left: 1.5rem;
+        }
+
+        .timeline-icon {
+            left: -1.75rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            font-size: 0.75rem;
+        }
+
+        .hero-section .btn {
+            display: block;
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    /* Smooth scroll */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .btn {
+        border-radius: 20px;
+        padding: 0.5rem 1.5rem;
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+
+    /* Section Headers */
+    .section-header {
+        padding-bottom: 0.5rem;
+        margin-bottom: 2rem;
+        border-bottom: 2px solid #f0f0f0;
+    }
+
+    .section-header i {
+        color: var(--primary-color);
+    }
+
+    /* Teacher List */
+    .teacher-list a {
+        display: block;
+        padding: 0.5rem 0;
+        color: var(--primary-color);
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+
+    .teacher-list a:hover {
+        color: var(--accent-color);
+        transform: translateX(5px);
+    }
+</style>
+
+<!-- Back to top functionality -->
+<!-- Teacher Modals -->
+<div class="modal fade" id="florModal" tabindex="-1" aria-labelledby="florModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="florModalLabel">Florencia Rodríguez</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="{{ '/assets/images/00_Flor.png' | relative_url }}" alt="Florencia Rodríguez"
+                    class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                <p>Tiene dos gatas.</p>
+                <p> No sabe silbar.</p>
+                <p>Llega tarde.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="crisModal" tabindex="-1" aria-labelledby="crisModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="crisModalLabel">Cristian Garcia Bauza</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="{{ '/assets/images/00_Bauza.png' | relative_url }}" alt="Cristian Garcia Bauza"
+                    class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                <p>Standup.</p>
+                <p>Jefe. </p>
+                <p>Director.</p>
+                <p>Da ordenes.</p>
+                <!--Desarrollador de soluciones innovadoras que
+                    combinan diferentes tecnologías para optimizar procesos. Comprometido con la educación y la
+                    transferencia de conocimiento en el área de tecnologías emergentes.-->
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Back to top button
+    const backToTopButton = document.getElementById('backToMain');
+
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.add('visible');
+        } else {
+            backToTopButton.classList.remove('visible');
+        }
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 100,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script><!-- Fin de estilos 
+
+Viernes: fecha limite segunda entrega
+
+Semana libre
+
+Lunes Clase 5 - Diapositiva 05: Listas de Slack, Browse AI
+
+Miercoles Clase 6 - Diapositiva 06: Automatizaciones complejas + Tercer entrega
+
+Jueves Clase 7 - Diapositiva Proyecto final: Deployar app (proyecto integrador)
+
+Veinte días fecha limite entrega proyecto integrador-->

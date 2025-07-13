@@ -1,0 +1,24 @@
+source "https://rubygems.org"
+
+# This is the standard Gemfile for Jekyll sites using GitHub Pages
+# Source: https://github.com/github/pages-gem
+
+# GitHub Pages requires specific versions of gems
+# This ensures consistent environments across different builds
+gem "github-pages", group: :jekyll_plugins
+
+# Required for Windows
+# This improves file system monitoring on Windows
+gem 'wdm', '>= 0.1.0', :platforms => [:mswin, :mingw]
+
+group :jekyll_plugins do
+  gem 'jekyll-compose', '~> 0.12.0'
+  gem 'jekyll-seo-tag', '~> 2.8.0'
+  gem 'jekyll-sitemap', '~> 1.4.0'
+  gem 'jekyll-feed', '~> 0.17.0'
+end
+
+# Performance optimization
+# Add these if you need additional functionality:
+# gem 'jekyll-assets', '~> 3.4'
+# gem 'jekyll-minifier', '~> 0.1.10'

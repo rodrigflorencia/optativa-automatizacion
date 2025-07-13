@@ -1,0 +1,103 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/">Inicio</a>
+                </li>
+
+                <!-- Apuntes Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="apuntesDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Apuntes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="apuntesDropdown">
+                        {% if site.apuntes and site.apuntes.size > 0 %}
+                        {% assign apuntes = site.apuntes | sort: 'nav_order' %}
+                        {% for apunte in apuntes %}
+                        {% if apunte.title %}
+                        <li><a class="dropdown-item" href="{{ site.baseurl }}{{ apunte.url }}">
+                                {{ apunte.title | replace: '"', '' | strip_html }}
+                            </a></li>
+                        {% endif %}
+                        {% endfor %}
+                        {% else %}
+                        <li><span class="dropdown-item text-muted">No hay apuntes disponibles</span></li>
+                        {% endif %}
+                    </ul>
+                </li>
+
+                <!-- Prácticos Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="practicosDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Practicos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="practicosDropdown">
+                        {% if site.practicos and site.practicos.size > 0 %}
+                        {% assign practicos = site.practicos | sort: 'nav_order' %}
+                        {% for practico in practicos %}
+                        {% if practico.title %}
+                        <li><a class="dropdown-item" href="{{ site.baseurl }}{{ practico.url }}">
+                                {{ practico.title | replace: '"', '' | strip_html }}
+                            </a></li>
+                        {% endif %}
+                        {% endfor %}
+                        {% else %}
+                        <li><span class="dropdown-item text-muted">No hay prácticos disponibles</span></li>
+                        {% endif %}
+                    </ul>
+                </li>
+                <!-- Guías Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="guiasDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Guias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="guiasDropdown">
+                        {% if site.guias and site.guias.size > 0 %}
+                        {% assign guias = site.guias | sort: 'nav_order' %}
+                        {% for guia in guias %}
+                        {% if guia.title %}
+                        <li><a class="dropdown-item" href="{{ site.baseurl }}{{ guia.url }}">
+                                {{ guia.title | replace: '"', '' | strip_html }}
+                            </a></li>
+                        {% endif %}
+                        {% endfor %}
+                        {% else %}
+                        <li><span class="dropdown-item text-muted">No hay guías disponibles</span></li>
+                        {% endif %}
+                    </ul>
+                </li>
+                <!-- Diapositivas Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="diapositivasDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Diapositivas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="diapositivasDropdown">
+                        {% if site.diapositivas and site.diapositivas.size > 0 %}
+                        {% assign diapositivas = site.diapositivas | sort: 'nav_order' %}
+                        {% for diapositiva in diapositivas %}
+                        {% if diapositiva.title %}
+                        <li><a class="dropdown-item" href="{{ site.baseurl }}{{ diapositiva.url }}">
+                                {{ diapositiva.title | replace: '"', '' | strip_html }}
+                            </a></li>
+                        {% endif %}
+                        {% endfor %}
+                        {% else %}
+                        <li><span class="dropdown-item text-muted">No hay diapositivas disponibles</span></li>
+                        {% endif %}
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

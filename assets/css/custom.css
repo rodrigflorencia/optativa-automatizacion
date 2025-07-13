@@ -1,0 +1,13 @@
+/* Custom styles for images */
+img[alt="Second Brain AI"] {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+img[alt="Notion"] {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
