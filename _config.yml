@@ -6,7 +6,7 @@ description: >
 # GitHub Pages settings
 
 baseurl: "/optativa-automatizacion"  # Must match repository name
-url: "https://florenciarodriguez.github.io" 
+url: "https://rodrigflorencia.github.io" 
 
 # Collections Configuration
 collections:
