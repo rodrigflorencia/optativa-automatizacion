@@ -43,9 +43,26 @@ title: "Inicio"
                 no estructurados, automatización basada en reglas e integración de
                 herramientas digitales.
             </p>
-            <p class="card-text">Además, se aplicarán principios de comunicación de datos e inteligencia artificial
-                generativa para optimizar tareas y apoyar la toma de decisiones en entornos profesionales.
-            </p>
+            <p class="card-text">El curso no tiene materias correlativas.</p>
+        </div>
+    </section>
+
+    <!-- Approval Requirements -->
+    <section class="card mb-4">
+        <div class="card-body">
+            <h2 class="card-title h4">Requisitos de Aprobación</h2>
+            <div class="mb-3">
+
+                <ul>
+                    <li>Para la cursada se deben aprobar dos trabajos prácticos que se encuentran en la sección de <a
+                            href="{{ '/practicos' | relative_url }}" class="text-primary">Prácticos</a>. Se pueden
+                        realizarse de forma individual o en grupo de hasta 4 estudiantes.</li>
+
+                    <li> Para aprobar el final es necesario realizar y aprobar el proyecto final. Puede basarse en
+                        alguno de los 4 casos de uso propuestos o en una problemática
+                        propia de similar complejidad. La presentación del proyecto será de forma oral en clase.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -81,9 +98,6 @@ title: "Inicio"
                         </div>
                         <h2 class="card-title h4">Docentes</h2>
                         <div class="teacher-list mb-3">
-                            <a href="#" class="d-block" data-bs-toggle="modal" data-bs-target="#bauzyModal">
-                                <i class="bi bi-person-fill me-2"></i>Bauzy
-                            </a>
                             <a href="#" class="d-block" data-bs-toggle="modal" data-bs-target="#crisModal">
                                 <i class="bi bi-person-fill me-2"></i>Cristian Garcia Bauza
                             </a>
@@ -128,21 +142,53 @@ title: "Inicio"
                 <h2 class="h4 mb-0">Objetivos</h2>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="d-flex">
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex h-100">
                         <i class="bi bi-arrow-repeat text-primary me-3 mt-1"></i>
                         <div>
-                            <h3 class="h6 fw-bold">Integración de Procesos</h3>
-                            <p class="small">Conectar sistemas y aplicaciones para flujos de trabajo eficientes.</p>
+                            <h3 class="h6 fw-bold">Integración de Sistemas</h3>
+                            <p class="small mb-0">Dominar técnicas para conectar diferentes aplicaciones y servicios a
+                                través de APIs, permitiendo el flujo de datos entre plataformas diversas.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="d-flex">
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex h-100">
                         <i class="bi bi-robot text-primary me-3 mt-1"></i>
                         <div>
-                            <h3 class="h6 fw-bold">Automatización</h3>
-                            <p class="small">Eliminar tareas repetitivas mediante la automatización.</p>
+                            <h3 class="h6 fw-bold">Automatización Inteligente</h3>
+                            <p class="small mb-0">Desarrollar soluciones que automaticen tareas repetitivas utilizando
+                                herramientas de IA generativa, mejorando la eficiencia operativa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex h-100">
+                        <i class="bi bi-diagram-3 text-primary me-3 mt-1"></i>
+                        <div>
+                            <h3 class="h6 fw-bold">Arquitecturas de Flujo</h3>
+                            <p class="small mb-0">Diseñar arquitecturas de procesos que combinen datos estructurados y
+                                no estructurados para resolver problemas complejos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex h-100">
+                        <i class="bi bi-code-square text-primary me-3 mt-1"></i>
+                        <div>
+                            <h3 class="h6 fw-bold">Desarrollo de Chatbots</h3>
+                            <p class="small mb-0">Crear asistentes conversacionales que interactúen con usuarios finales
+                                mediante procesamiento de lenguaje natural.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex h-100">
+                        <i class="bi bi-cloud-arrow-up text-primary me-3 mt-1"></i>
+                        <div>
+                            <h3 class="h6 fw-bold">Despliegue en la Nube</h3>
+                            <p class="small mb-0">Implementar y desplegar soluciones en plataformas en la nube como
+                                Vercel.</p>
                         </div>
                     </div>
                 </div>
@@ -176,8 +222,10 @@ title: "Inicio"
                                 </div>
                                 <div class="timeline-content">
                                     <h4 class="h6 fw-bold">Conexiones API</h4>
-                                    <p class="text-muted mb-1">Integración de OpenAI con Colab - Chatbot</p>
+                                    <p class="text-muted mb-1">Integración de OpenAI con Colab</p>
                                     <p class="text-muted mb-0">GPT y acciones</p>
+                                    <p class="text-muted mb-1">Chatbot</p>
+                                    <p class="text-muted mb-0">RelevanceAI + APIs</p>
                                 </div>
                             </div>
                             <div class="timeline-item">
@@ -186,9 +234,11 @@ title: "Inicio"
                                 </div>
                                 <div class="timeline-content">
                                     <h4 class="h6 fw-bold">Automatización</h4>
-                                    <p class="text-muted mb-1">RelevanceAI + APIs</p>
                                     <p class="text-muted mb-1">BrowserAI + HTML</p>
-                                    <p class="text-muted mb-0">Integración de Gmail, Gemini, Drive, Notion, Slack</p>
+                                    <p class="text-muted mb-1">Webhooks</p>
+                                    <p class="text-muted mb-0">Integración de Gmail, Gemini, Drive, Notion, Slack, etc.
+                                    </p>
+                                    <p class="text-muted mb-0">Desarrollo de flujos para automatizar tareas</p>
                                 </div>
                             </div>
                             <div class="timeline-item">
@@ -198,7 +248,7 @@ title: "Inicio"
                                 <div class="timeline-content">
                                     <h4 class="h6 fw-bold">Proyecto Final</h4>
                                     <p class="text-muted mb-1">Presentación de proyecto final</p>
-                                    <p class="text-muted mb-0">Vercel + GitHub + OpenAI / RelevanceAI</p>
+                                    <p class="text-muted mb-0">Vercel + GitHub + Lovable + OpenAI / RelevanceAI</p>
                                 </div>
                             </div>
                         </div>

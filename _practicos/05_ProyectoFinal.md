@@ -1,12 +1,27 @@
 ---
 layout: default
-title: "Proyectofinal"
-nav_order: 05
+title: "Proyecto Final"
+nav_order: 04
 ---
 
 ## Vercel
 
 Vercel es una plataforma en la nube especializada en el despliegue de aplicaciones web modernas. Facilita publicar proyectos (estáticos o con Node.js) directamente desde repositorios de GitHub/GitLab/Bitbucket. Con Vercel basta hacer push de tu código y automáticamente detecta el framework (React, Next.js, etc.) y realiza el *build* y *despliegue*. Obtienes un sitio *web* accesible en Internet con HTTPS y dominio propio si quieres. Es ideal para prototipos rápidos o apps de producción, ya que maneja escalado automático y *previews* de cada rama.
+
+## Lovable
+
+Lovable es una plataforma de desarrollo de IA conversacional que permite crear asistentes virtuales personalizados. Ofrece herramientas para diseñar flujos de conversación, integrarse con múltiples canales (web, WhatsApp, Messenger) y conectar con APIs externas. Su interfaz intuitiva permite crear chatbots avanzados sin necesidad de programación, aunque también ofrece APIs para desarrolladores que necesiten mayor personalización. Lovable destaca por su capacidad de aprendizaje automático, permitiendo que los asistentes mejoren con el tiempo a través de las interacciones con los usuarios.
+
+## Windsurf
+
+Windsurf es un asistente de desarrollo impulsado por IA que ayuda a los programadores a ser más productivos. Funciona como un copiloto de código que entiende el contexto del proyecto, sugiere mejoras y puede generar código automáticamente. Se integra con editores de código populares y soporta múltiples lenguajes de programación. Windsurf es particularmente útil para tareas repetitivas, depuración de código y generación de documentación, permitiendo a los desarrolladores enfocarse en la lógica de negocio y la resolución de problemas complejos.
+
+## Entregable
+
+- Crear una pagina web para alguno de los casos de uso trabajados en clases. También está la opción de trabajar sobre un caso personal.
+- Incluir automatización con el formulario del entregable 2.
+- Entregar un zip con el repositorio de Github y el link de Vercel.
+- Presentación DEMO.
 
 <!-- 
 ## Actividades

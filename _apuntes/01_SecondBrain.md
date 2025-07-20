@@ -147,3 +147,51 @@ Tu Segundo Cerebro no debería ser solo un lugar donde acumular ideas valiosas, 
 Todas las personas necesitamos participar en la creación de algo bueno, verdadero o bello. Crear no solo es profundamente satisfactorio, sino que también puede abrir puertas inesperadas, conectar con otras personas y generar impacto: inspirando, entreteniendo o informando a quienes nos rodean.
 
 Una vez que empezás a recopilar y dar forma externa a tu conocimiento más valioso, tu forma de trabajar cambia por completo. Ya no se trata de empezar desde cero cada vez, sino de reutilizar, combinar y mejorar lo que ya construiste. Así nace una nueva manera de producir: más ágil, más estratégica y más creativa.
+
+### Notion
+
+Notion es una plataforma colaborativa tipo todo-en-uno para notas y gestión de proyectos.
+
+Esta plataforma está basada en bloques: párrafos de texto, encabezados, listas, imágenes, tablas, etc. Cada bloque es una pieza de contenido que se puede editar libremente.
+
+Dentro de Notion existen también bases de datos, que son colecciones de páginas (cada página es un registro con propiedades). Por ejemplo, podes tener una base de datos de tareas o de aprendizaje. Las bases de datos en Notion permiten vistas diferentes: tabla, lista, calendario, tablero (Kanban), galería, entre otras. Cada vista filtra o muestra los mismos datos de forma distinta. Además, Notion ofrece plantillas predefinidas (de proyectos, gestores de tareas, diarios, etc.) para usar y modificar según tus necesidades. 
+
+En Notion se puede escribir utilizando sintaxis Markdown. Por ejemplo:
+
+/# Título principal
+/#/# Subtítulo
+
+- Lista con viñetas
+- /*/*Texto en negrita/*/*, /*texto en cursiva/*, /`código/`.
+
+1. Lista numerada
+2. Segundo ítem
+
+[Enlace](https://example.com)
+> Cita en bloque
+
+Estos elementos aparecerán como bloques de encabezado, lista, texto resaltado, código o link en Notion. Además de Markdown, puedes usar atajos de barra (/): por ejemplo, /page crea una nueva subpágina, /db crea una base de datos, /callout un recuadro destacado, /code un bloque de código, etc.
+
+### Ejemplos de uso de Notion y Markdown
+
+Supongamos que creas una página de notas para un proyecto de curso. Podrías escribir en Markdown:
+
+```none
+# Plan de curso de IA
+
+## Objetivos
+- Crear un asistente virtual personalizado.
+- Aprender a conectar APIs en herramientas No-Code.
+
+## Tareas
+1. Investigar herramientas No-Code (Make, Zapier).
+2. Escribir un prompt para ChatGPT.
+3. Diseñar un diagrama en Mermaid (Notion permite diagramas Markdown).
+
+```mermaid
+graph LR
+A[Inicio] --> B{Decisión}
+B -- Sí --> C[Hacer X]
+B -- No --> D[Hacer Y]
+/`/`/`
+```

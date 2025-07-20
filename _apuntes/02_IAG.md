@@ -171,7 +171,7 @@ Por ejemplo, podrías estar interesado en aprender el concepto de ingeniería de
 Prompt:
 
 ```none
-Explica el concepto de ingeniería de promoción. Mantén la explicación corta, solo unas pocas frases y no seas demasiado descriptivo.
+Explica el concepto de ingeniería de prompt. Mantén la explicación corta, solo unas pocas frases y no seas demasiado descriptivo.
 ```
 
 No está claro en la instrucción anterior cuántas oraciones utilizar y qué estilo. Es posible que puedas obtener respuestas aceptables con el prompt anterior, pero un prompt que sea muy específico, conciso y directo sería mejor.
@@ -349,7 +349,7 @@ Escenario: [ChatGPT](https://chat.openai.com/) te da una lista de “expertos en
 
 Actividad: ¿Cómo verificarías si esos expertos son reales y si tienen la experiencia que [ChatGPT](https://chat.openai.com/) dice que tienen? (Buscar en [LinkedIn](https://www.linkedin.com/), consultar sus sitios *web*, verificar sus publicaciones).
 
-### HErramientas de IAG
+### Herramientas de IAG
 
 Windsurf
 
@@ -375,3 +375,142 @@ HuggingFace
 
 ![alt text](data:image/jpeg;base64,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)
 
+### Chatbots
+
+Un **chatbot** es un sistema de software que simula una conversación con un humano. Los chatbots pueden estar basados en reglas simples o en IA (modelos de lenguaje).
+
+*Ejemplo aplicado:* un mercado puede tener un chatbot para consultas frecuentes (horarios, seguimiento de pedidos). A continuación, un ejemplo básico (en Python) de un chatbot por reglas:
+
+```python
+def chatbot_respuesta(pregunta):
+    pregunta = pregunta.lower()
+    if 'hola' in pregunta:
+        return '¡Hola! ¿En qué puedo ayudarte?'
+    elif 'precio' in pregunta:
+        return 'Tenemos varios productos con diferentes precios. ¿Te interesa alguno en particular?'
+    elif 'adiós' in pregunta or 'gracias' in pregunta:
+        return '¡Gracias a ti! Hasta pronto.'
+    else:
+        return 'Lo siento, no entiendo tu pregunta. ¿Puedes reformularla?'
+```
+
+Prueba del chatbot
+
+```python
+print(chatbot_respuesta("¿Cuál es el precio del producto?"))
+```
+
+```none
+> Salida: Tenemos varios productos con diferentes precios. ¿Te interesa alguno en particular?
+```
+
+Con este ejemplo ves cómo condicionamos la respuesta según palabras clave. En la práctica, los chatbots avanzados usan IA (p.ej. GPT) para entender el lenguaje natural y generar respuestas más complejas.
+
+### RAG (Retrieval-Augmented Generation)
+
+RAG combina recuperación de información con generación de texto. Primero busca en una base de datos o documentos la información relevante (recuperación), luego genera la respuesta usando esa información. Esto evita que el modelo “inventa” datos. Ejemplo: el usuario pregunta “¿Qué cursos tienes disponibles?”. El sistema busca en una base de conocimientos los cursos con la palabra “orgánico” y luego genera una respuesta basada en esa lista. En código:
+
+```python
+# Base de conocimientos ficticia
+
+base_datos1_ = {
+    'cursos': [
+        'Introducción a Python - Nivel Básico',
+        'Machine Learning con Scikit-learn - Nivel Intermedio',
+        'Desarrollo Web con Django - Nivel Avanzado',
+        'Análisis de Datos con Pandas - Nivel Intermedio'
+    ]
+}
+
+def responder_con_rag(pregunta):
+    if 'curso' in pregunta.lower() or 'cursos' in pregunta.lower():
+        cursos = '\n- '.join(base_datos1_['cursos'])
+        return f"Tenemos los siguientes cursos disponibles:\n- {cursos}"
+    elif 'básico' in pregunta.lower():
+        return "Nuestro curso de nivel básico es: Introducción a Python"
+    elif 'avanzado' in pregunta.lower():
+        return "Nuestro curso de nivel avanzado es: Desarrollo Web con Django"
+    else:
+        return "¿Te gustaría información sobre nuestros cursos? Puedo mostrarte lo que ofrecemos."
+```
+
+Prueba del flujo RAG
+
+```python
+print(responder_con_rag("¿Qué cursos tienes disponibles?"))
+```
+
+Este ejemplo ilustrativo muestra el flujo: primero filtramos los datos relevantes, luego completamos la respuesta. En un sistema real, usaríamos técnicas de vectorización (TF-IDF, embeddings) y bibliotecas como FAISS para manejar bases más grandes.
+
+Ejemplo avanzado
+
+```python
+class BibliotecaChatbot:
+    def __init__(self):
+        self.base_datos = {
+            'libros': {
+                'ciencia_ficcion': [
+                    'Dune - Frank Herbert',
+                    'Fundación - Isaac Asimov',
+                    '1984 - George Orwell'
+                ],
+                'fantasia': [
+                    'El Señor de los Anillos - J.R.R. Tolkien',
+                    'Harry Potter - J.K. Rowling',
+                    'Juego de Tronos - George R.R. Martin'
+                ],
+                'no_ficcion': [
+                    'Sapiens - Yuval Noah Harari',
+                    'El poder del ahora - Eckhart Tolle'
+                ]
+            },
+            'prestamos': {}
+        }
+
+    def buscar_libros(self, genero=None):
+        if genero and genero in self.base_datos['libros']:
+            return self.base_datos['libros'][genero]
+        return [libro for sublist in self.base_datos['libros'].values() for libro in sublist]
+
+    def responder(self, pregunta):
+        pregunta = pregunta.lower()
+        
+        if 'hola' in pregunta or 'buenos días' in pregunta:
+            return "¡Hola! Soy el asistente de la biblioteca. ¿En qué puedo ayudarte hoy?"
+            
+        elif 'libros' in pregunta or 'tienes' in pregunta:
+            if 'ciencia ficción' in pregunta:
+                libros = self.buscar_libros('ciencia_ficcion')
+                return "Libros de ciencia ficción disponibles:\n- " + "\n- ".join(libros)
+            elif 'fantasía' in pregunta:
+                libros = self.buscar_libros('fantasia')
+                return "Libros de fantasía disponibles:\n- " + "\n- ".join(libros)
+            else:
+                return "¿Qué género de libros te interesa? Tenemos ciencia ficción, fantasía y no ficción."
+                
+        elif 'prestar' in pregunta or 'solicitar' in pregunta:
+            return "Para prestar un libro, por favor indícame el título exacto."
+            
+        elif 'horario' in pregunta or 'abierto' in pregunta:
+            return "La biblioteca está abierta de lunes a viernes de 9:00 a 20:00, y sábados de 10:00 a 14:00."
+            
+        return "Lo siento, no entendí tu pregunta. ¿Podrías reformularla?"
+```
+
+Ejemplo de uso
+
+ ```python
+if __name__ == "__main__":
+    chatbot = BibliotecaChatbot()
+    print(chatbot.responder("Hola, ¿qué libros de ciencia ficción tienes?"))
+```
+
+### Actividades prácticas
+
+Chatbot básico: Implementa un chatbot simple (como el de arriba) en Python o en un servicio No-Code (p.ej. Chatfuel). Prueba varios saludos y preguntas para ajustar las respuestas.
+
+Experimentar con *prompts*: Ingresa a ChatGPT (o modelo similar) y formula prompts más vagos y más elaborados. Por ejemplo, compara preguntar “Cuenta un chiste” vs. “Cuenta un chiste breve sobre programación”. Observa cómo cambia la respuesta.
+
+Simular RAG: Selecciona tres textos (pueden ser artículos o párrafos) y guárdalos. Luego, planteate una pregunta cuyas palabras clave estén en esos textos. Intenta primero buscar manualmente cuál texto responde mejor, luego genera la respuesta como el código de ejemplo. Analiza la diferencia entre inventar una respuesta vs. basarse en la búsqueda.
+
+Estos ejercicios te ayudarán a comprender la diferencia entre un *chatbot* sencillo y uno potenciado por técnicas de IA y recuperación de información.
