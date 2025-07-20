@@ -4,8 +4,6 @@ title: Guías
 nav_order: 3
 ---
 
-# Guías de la Materia
-
 <div class="container mt-4">
     <div class="row g-4">
         <!-- Configurar Google -->

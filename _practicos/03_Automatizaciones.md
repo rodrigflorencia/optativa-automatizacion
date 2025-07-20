@@ -39,3 +39,5 @@ Caso 4: Cerámica "Manos de Barro"
 
 - Entregar los dos archivos json y un breve informe técnico.
 - Incluir capturas de pantalla. Incluir preguntas del formulario que crearon.
+
+<iframe aria-label='Entregable Nro. 2' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/frodriguezpla1/form/EntregableNro2/formperma/abf1HymgCAK8CKdwCARI3PDFNjpsUajcfeyExPeD4xQ'></iframe>

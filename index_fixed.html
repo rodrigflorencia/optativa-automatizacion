@@ -1,0 +1,23 @@
+<!-- This is a fixed version of index.html with the duplicate script removed -->
+
+<!-- First, let's get the entire content of the original file -->
+{% raw %}
+{% assign content = '' %}
+{% for line in site.pages %}
+  {% if line.path == 'index.html' %}
+    {% assign content = line.content %}
+  {% endif %}
+{% endfor %}
+{% endraw %}
+
+<!-- Remove the first script block -->
+{% assign content = content | remove_first: "<script>\n    // Back to top button\n    const backToTopButton = document.getElementById('backToMain');\n\n    window.addEventListener('scroll', () => {\n        if (window.pageYOffset > 300) {\n            backToTopButton.classList.add('visible');\n        } else {\n            backToTopButton.classList.remove('visible');\n        }\n    });\n\n    // Smooth scrolling for anchor links\n    document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {\n        anchor.addEventListener('click', function (e) {\n            e.preventDefault();\n\n            const targetId = this.getAttribute('href');\n            if (targetId === '#') return;\n\n            const targetElement = document.querySelector(targetId);\n            if (targetElement) {\n                window.scrollTo({\n                    top: targetElement.offsetTop - 100,\n                    behavior: 'smooth'\n                });\n            }\n        });\n    });\n</script>" %}
+
+<!-- Replace the second script block with an improved version -->
+{% assign content = content | replace: "<script>\n    // Back to top button\n    const backToTopButton = document.getElementById('backToMain');\n\n    window.addEventListener('scroll', () => {\n        if (window.pageYOffset > 300) {", "<script>\n    // Back to top button functionality\n    document.addEventListener('DOMContentLoaded', function() {\n        const backToTopButton = document.getElementById('backToMain');\n        \n        if (backToTopButton) {\n            // Show/hide back to top button based on scroll position\n            window.addEventListener('scroll', () => {\n                if (window.pageYOffset > 300) {" %}
+
+<!-- Update the closing part of the script -->
+{% assign content = content | replace: "            }\n        });\n    });\n</script>", "                    backToTopButton.classList.add('visible');\n                } else {\n                    backToTopButton.classList.remove('visible');\n                }\n            });\n\n            // Smooth scrolling for anchor links\n            document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {\n                anchor.addEventListener('click', function (e) {\n                    e.preventDefault();\n\n                    const targetId = this.getAttribute('href');\n                    if (targetId === '#') return;\n\n                    const targetElement = document.querySelector(targetId);\n                    if (targetElement) {\n                        window.scrollTo({\n                            top: targetElement.offsetTop - 100,\n                            behavior: 'smooth'\n                        });\n                    }\n                });\n            });\n        }\n    });\n</script>" %}
+
+<!-- Output the modified content -->
+{{ content }}

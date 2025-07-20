@@ -4,7 +4,6 @@ title: Diapositivas
 nav_order: 3
 ---
 
-# Diapositivas de la Materia
 
 <div class="container mt-4">
     <div class="row g-4">
