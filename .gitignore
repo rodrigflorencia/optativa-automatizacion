@@ -7,3 +7,7 @@ html_output
 update_apuntes_layout.py
 convert_md_to_html.py
 index_fixed
+add_front_matter.rb
+add_front_matter.ps1
+fix_script.js
+update_front_matter.py
