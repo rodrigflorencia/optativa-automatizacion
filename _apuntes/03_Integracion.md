@@ -236,15 +236,18 @@ nav_order: 03
 <h2 id="integracion-chatbot">Ejemplos aplicados: chatbot</h2>
             <div>
                 <iframe
-    src="https://colab.research.google.com/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/02A_Chatbot.ipynb"
+    src="https://colab.research.google.com/github/rodrigflorencia/optativa-automatizacion/blob/main/Copy_of_02A_Chatbot.ipynb"
+     width="120%"
+    height="1000px"
+    style="border: 1px solid #ddd; border-radius: 8px;"
     >
 </iframe>
 </div>
             
             <div>
 <iframe
-    src="https://colab.research.google.com/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/03A_Chat.ipynb"
-    width="130%"
+    src="https://colab.research.google.com/github/rodrigflorencia/optativa-automatizacion/blob/main/Copy_of_03A_Chat.ipynb"
+    width="120%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
     >
