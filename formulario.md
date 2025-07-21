@@ -14,9 +14,9 @@ nav_order: 100
             
             <div class="card border-0 shadow-sm mb-5">
                 <div class="card-body p-4 p-lg-5">
-                    <div class="ratio ratio-16x32">
+                   
                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBanAK51H1ZlMKVi6sLQdQlzlIsRbntfP2jAFsT0WUW0jO8g/viewform?embedded=true" width="640" height="2000" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-                    </div>
+                   
                 </div>
             </div>
             
