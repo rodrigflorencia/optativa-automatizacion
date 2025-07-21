@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--primary-purple) !important;">
     <div class="container">
         <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -54,6 +54,7 @@
                         {% endif %}
                     </ul>
                 </li>
+
                 <!-- Guías Dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="guiasDropdown" role="button"
@@ -75,6 +76,7 @@
                         {% endif %}
                     </ul>
                 </li>
+
                 <!-- Diapositivas Dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="diapositivasDropdown" role="button"
@@ -95,6 +97,11 @@
                         <li><span class="dropdown-item text-muted">No hay diapositivas disponibles</span></li>
                         {% endif %}
                     </ul>
+                </li>
+
+                <!-- Formulario de Inscripción -->
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/formulario">Inscripción</a>
                 </li>
 
             </ul>

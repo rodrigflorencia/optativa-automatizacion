@@ -4,7 +4,6 @@ description: >
   Página de la materia Integración y Automatización de Procesos.
 
 # GitHub Pages settings
-
 baseurl: "/optativa-automatizacion"  # Must match repository name
 url: "https://rodrigflorencia.github.io" 
 
@@ -12,28 +11,28 @@ url: "https://rodrigflorencia.github.io"
 collections:
   apuntes:
     output: true
-    permalink: /apuntes/:name/
-    sort_by: nav_order
+    permalink: /apuntes/:path/
+    sort_by: path
   practicos:
     output: true
-    permalink: /practicos/:name/
-    sort_by: nav_order
+    permalink: /practicos/:path/
+    sort_by: path
   guias:
     output: true
-    permalink: /guias/:name/
-    sort_by: nav_order
+    permalink: /guias/:path/
+    sort_by: path
   diapositivas:
     output: true
-    permalink: /diapositivas/:name/
-    sort_by: nav_order
+    permalink: /diapositivas/:path/
+    sort_by: path
 
-# Defaults for collections
+# Defaults
 defaults:
   - scope:
       path: ""
       type: apuntes
     values:
-      layout: default
+      layout: apunte
   - scope:
       path: ""
       type: practicos
@@ -50,29 +49,6 @@ defaults:
     values:
       layout: default
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "apuntes"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "practicos"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "guias"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "diapositivas"
-    values:
-      layout: "default"
-
 # Theme and build settings
 theme: minima
 markdown: kramdown
@@ -81,40 +57,22 @@ permalink: pretty
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
   - vendor
+  - .gitignore
+  - .git
+  - README.md
+  - convert_md_to_html.py
+  - update_apuntes_layout.py
+  - html_output/
 
 kramdown:
   input: GFM
   footnote_backlink: "&#x21A9;&#xFE0E;"
   highlighter: rouge
-
-# Collections configuration
-collections:
-  guias:
-    output: true
-    permalink: /guias/:path/
-  diapositivas:
-    output: true
-    permalink: /diapositivas/:path/
-  apuntes:
-    output: true
-    permalink: /apuntes/:path/
-  practicos:
-    output: true
-    permalink: /practicos/:path/
-  tps:
-    output: true
-    permalink: /:path/
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "tp"
-    values:
-      layout: tp

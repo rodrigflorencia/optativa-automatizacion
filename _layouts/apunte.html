@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign html_file = page.path | replace: '.md', '.html' | replace: '_apuntes', 'html_output/apuntes' %}
+{% assign html_content = site.static_files | where: 'path', html_file | first %}
+
+{% if html_content %}
+{% include_relative {{ html_content.path }} %}
+{% else %}
+<div class="alert alert-warning">
+    <h4>HTML version not found</h4>
+    <p>The HTML version of this document could not be found. Please run the markdown to HTML conversion script.</p>
+    <a href="{{ '/convert_md_to_html.py' | relative_url }}" class="btn btn-primary">Run Conversion Script</a>
+</div>
+{{ content }}
+{% endif %}
