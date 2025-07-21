@@ -232,22 +232,24 @@ nav_order: 03
                 interfaz de usuario gráfica (GUI). Los IDE permiten que los desarrolladores comiencen a programar
                 aplicaciones nuevas con rapidez, ya que no necesitan establecer ni integrar manualmente varias
                 herramientas como parte del proceso de configuración.</p>
-
+<div>
                 <iframe
-    src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/02A_Chatbot.ipynb"
+    src="https://hub.2i2c.mybinder.org/user/rodrigflorencia--automatizacion-yxxyzd4m/notebooks/_apuntes/03A_Chat.ipynb"
     width="100%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
     allowfullscreen>
 </iframe>
-
+</div>
+            
+            <div>
 <iframe
     src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/03A_Chat.ipynb"
     width="100%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
     allowfullscreen>
-</iframe>
+</iframe></div>
 
             <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
                 <a href="javascript:history.back()" class="btn btn-outline-primary btn-back">
