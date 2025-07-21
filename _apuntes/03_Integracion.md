@@ -236,8 +236,8 @@ nav_order: 03
 <h2 id="integracion-chatbot">Ejemplos aplicados: chatbot</h2>
             <div>
                 <iframe
-    src="https://colab.research.google.com/github/rodrigflorencia/optativa-automatizacion/blob/main/Copy_of_02A_Chatbot.ipynb"
-     width="120%"
+    src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/Copy_of_02A_Chatbot.ipynb"
+      width="120%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
     >
@@ -246,7 +246,7 @@ nav_order: 03
             
             <div>
 <iframe
-    src="https://colab.research.google.com/github/rodrigflorencia/optativa-automatizacion/blob/main/Copy_of_03A_Chat.ipynb"
+    src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/Copy_of_03A_Chat.ipynb"
     width="120%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
