@@ -237,10 +237,7 @@ nav_order: 03
             <div>
                 <iframe
     src="https://colab.research.google.com/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/02A_Chatbot.ipynb"
-    width="130%"
-    height="1000px"
-    style="border: 1px solid #ddd; border-radius: 8px;"
-    allowfullscreen>
+    >
 </iframe>
 </div>
             
@@ -250,7 +247,7 @@ nav_order: 03
     width="130%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
-    allowfullscreen>
+    >
 </iframe></div>
 
             <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
