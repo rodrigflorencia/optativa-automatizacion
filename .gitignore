@@ -5,6 +5,5 @@ html_output
 update_apuntes_layout.py
 convert_md_to_html.py
 knowledge_base.json
-faq.md
 links.md
 Chatbot_Integracion_API copy.ipynb

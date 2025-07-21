@@ -234,6 +234,7 @@ Tambien nos podemos encontrar con una alternativa creada por <a href="https://ww
 </code></pre></div>
 
 <p>Esto pediría al servidor los campos nombre y una lista de publicaciones con sus títulos y fechas.</p>
+<!--
 <h2 id="chatbot-con-openai-api">Chatbot con OpenAI API</h2>
 <p>Imagina que tienes una plataforma educativa con múltiples cursos. Cada día recibes decenas de preguntas repetidas de los estudiantes:</p>
 <p>❓ "¿Qué cursos de programación ofrecen?"</p>
@@ -365,7 +366,7 @@ Chatbot: Para el curso de Introducción a Python solo necesitas tener conocimien
 <p>👤 Estudiante: ¿Hay clases en vivo o todo es grabado?
 Chatbot: Nuestros cursos incluyen tanto clases en vivo como material grabado. Las clases en vivo se realizan dos veces por semana y quedan grabadas para que puedas verlas después. También tendrás acceso a ejercicios prácticos, foros de discusión y soporte de instructores. ¿Te gustaría conocer los horarios de las próximas clases?</p>
 <p>👤 Estudiante: salir</p>
-
+-->
 <h2 id="ejemplos-api-python">Ejemplos API + Python</h2>
 <div class="codehilite"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
