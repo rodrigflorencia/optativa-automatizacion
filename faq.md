@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Preguntas Frecuentes
 nav_order: 5
 ---
