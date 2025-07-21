@@ -83,7 +83,7 @@ nav_order: 02
     <div class="container">
         <div class="content">
             <h1>Escenarios</h1>
-            <h2 id="escenarios-practicas">Casos aplicados</h2>
+          
 
 <p>Para el desarrollo de los traabajos de cursadas y final, se propone diseñar y resolver las consignas de los enunciados de cada unidad a partir de los escenarios que se presentan a continuación.</p>
 

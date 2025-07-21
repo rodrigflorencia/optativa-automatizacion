@@ -81,7 +81,7 @@ nav_order: 01
     <div class="container">
         <div class="content">
             <h1>Second Brain</h1>
-            <h2 id="actividades-practicas">Actividades prácticas</h2>
+         
 <ol>
 <li>
 <p><strong>Crear tu base de conocimiento en Notion:</strong> Crea una nueva página llamada “Base de Conocimiento”. Dentro, añade bloques de texto, enlaces e imágenes con información que consideres relevante (artículos, notas de cursos, ideas). Organiza el contenido con encabezados y listas.  </p>

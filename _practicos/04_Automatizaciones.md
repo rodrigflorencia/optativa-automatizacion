@@ -81,7 +81,7 @@ nav_order: 04
     <div class="container">
         <div class="content">
             <h1>Automatizaciones</h1>
-            <h2 id="actividades-practicas">Actividades prácticas</h2>
+    
 <p>Ejercicio obligatorio para aprobar la cursada.</p>
 <ul>
 <li>Crear una automatización que procese imagenes de transferencias bancarias y extraiga los datos relevantes. Las imagenes serán cargadas desde un formulario. La automatización extrae los datos y completa los valores en una planilla de Google Sheets.</li>

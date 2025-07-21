@@ -82,7 +82,7 @@ nav_order: 03
     <div class="container">
         <div class="content">
             <h1>Chatbot</h1>
-            <h2 id="actividades-practicas">Actividades prácticas</h2>
+         
 <p>De forma individual o en grupo (max 4) elegir uno de los casos y desarrollar un chatbot que:</p>
 <ul>
 <li>Tenga un saludo inicial personalizado.</li>
