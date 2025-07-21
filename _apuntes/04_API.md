@@ -1,7 +1,7 @@
 ---
 layout: default
 skip_layout: true
-title: "API"
+title: "Api"
 nav_order: 4
 ---
 {{ content }}
