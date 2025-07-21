@@ -257,7 +257,6 @@ Tambien nos podemos encontrar con una alternativa creada por <a href="https://ww
 <span class="n">api_key</span> <span class="o">=</span> <span class="n">userdata</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;OPEN_AI_KEY&#39;</span><span class="p">)</span>
 <span class="n">client</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">api_key</span><span class="p">)</span>
 
-
 <span class="n">documentos</span> <span class="o">=</span> <span class="p">[</span>
     <span class="p">{</span>
         <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;faq_cursos_disponibles&quot;</span><span class="p">,</span>
@@ -366,6 +365,7 @@ Chatbot: Para el curso de Introducción a Python solo necesitas tener conocimien
 <p>👤 Estudiante: ¿Hay clases en vivo o todo es grabado?
 Chatbot: Nuestros cursos incluyen tanto clases en vivo como material grabado. Las clases en vivo se realizan dos veces por semana y quedan grabadas para que puedas verlas después. También tendrás acceso a ejercicios prácticos, foros de discusión y soporte de instructores. ¿Te gustaría conocer los horarios de las próximas clases?</p>
 <p>👤 Estudiante: salir</p>
+
 <h2 id="ejemplos-api-python">Ejemplos API + Python</h2>
 <div class="codehilite"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
