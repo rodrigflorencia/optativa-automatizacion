@@ -132,7 +132,7 @@ nav_order: 03
 <p>Tono y estilo sugerido: cercano, amable, artesanal.</p>
 
 <h2 id="requisito-de-entrega">Requisito de entrega</h2>
-<p>Entregar una notebook de Python similar a la de.</p>
+<p>Entregar una notebook de Python similar a la de <a href="https://colab.research.google.com/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/03A_Chat.ipynb">ejemplo</a></p>
 <p>Si hay inconvenientes con el formulario, enviar la entrega por email a rodrig.florencia@gmail.com</p>
 <iframe aria-label='Entregable Nro. 1' frameborder="0" style="height:1200px;width:99%;border:none;" src='https://forms.zohopublic.com/frodriguezpla1/form/FormulariodeNotebookdePython/formperma/-06sxUqwI60BuMUDlPd6UMAy9PtbKn2lQrxtWgrjBQE'></iframe>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
