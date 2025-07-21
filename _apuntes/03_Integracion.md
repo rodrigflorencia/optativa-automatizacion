@@ -232,10 +232,12 @@ nav_order: 03
                 interfaz de usuario gráfica (GUI). Los IDE permiten que los desarrolladores comiencen a programar
                 aplicaciones nuevas con rapidez, ya que no necesitan establecer ni integrar manualmente varias
                 herramientas como parte del proceso de configuración.</p>
-<div>
+            
+<h2 id="integracion-chatbot">Ejemplos aplicados: chatbot</h2>
+            <div>
                 <iframe
     src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/02A_Chatbot.ipynb"
-    width="200%"
+    width="130%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
     allowfullscreen>
@@ -245,7 +247,7 @@ nav_order: 03
             <div>
 <iframe
     src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/03A_Chat.ipynb"
-    width="200%"
+    width="130%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
     allowfullscreen>
