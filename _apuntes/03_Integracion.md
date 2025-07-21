@@ -234,7 +234,7 @@ nav_order: 03
                 herramientas como parte del proceso de configuración.</p>
 
                 <iframe
-    src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/02_A_API.ipynb.ipynb"
+    src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/02A_Chatbot.ipynb"
     width="100%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
@@ -242,7 +242,7 @@ nav_order: 03
 </iframe>
 
 <iframe
-    src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/03_A_Chat.ipynb.ipynb"
+    src="https://nbviewer.jupyter.org/github/rodrigflorencia/optativa-automatizacion/blob/main/_apuntes/03A_Chat.ipynb"
     width="100%"
     height="1000px"
     style="border: 1px solid #ddd; border-radius: 8px;"
