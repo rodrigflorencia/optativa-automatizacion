@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: fullpage
 skip_layout: true
-title: "Api"
+title: "API"
 nav_order: 4
 ---
 {{ content }}

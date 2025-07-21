@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: fullpage
 title: "Proyecto Final"
 nav_order: 05
 ---

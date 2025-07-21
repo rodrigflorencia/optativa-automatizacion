@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: fullpage
 title: "Integracion"
 nav_order: 3
 ---

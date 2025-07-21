@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: fullpage
 title: "Chatbot"
 nav_order: 03
 ---
