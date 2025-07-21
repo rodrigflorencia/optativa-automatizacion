@@ -3,6 +3,7 @@ layout: fullpage
 title: "Second Brain"
 nav_order: 01
 ---
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">

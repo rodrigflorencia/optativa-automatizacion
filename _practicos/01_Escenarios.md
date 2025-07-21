@@ -4,7 +4,6 @@ title: "Escenarios"
 nav_order: 02
 ---
 
-
 <html lang="es">
 <head>
     <meta charset="UTF-8">

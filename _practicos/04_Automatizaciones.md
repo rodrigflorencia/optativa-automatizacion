@@ -3,6 +3,7 @@ layout: fullpage
 title: "Automatizaciones"
 nav_order: 04
 ---
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">

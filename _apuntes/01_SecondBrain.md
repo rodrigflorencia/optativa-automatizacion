@@ -1,7 +1,7 @@
 ---
 layout: fullpage
 title: "Secondbrain"
-nav_order: 1
+nav_order: 01
 ---
 
 <html lang="es">
