@@ -112,7 +112,7 @@ nav_order: 04
 <li>Incluir capturas de pantalla. Incluir preguntas de los formularios que crearon.</li>
 </ul>
 <p>Si hay inconvenientes con el formulario, enviar la entrega por email a rodrig.florencia@gmail.com</p>
-<iframe aria-label='Entregable Nro. 2' frameborder="0" style="height:800px;width:99%;border:none;" src='https://forms.zohopublic.com/frodriguezpla1/form/EntregableNro2/formperma/abf1HymgCAK8CKdwCARI3PDFNjpsUajcfeyExPeD4xQ'></iframe>
+<iframe aria-label='Entregable Nro. 2' frameborder="0" style="height:1200px;width:99%;border:none;" src='https://forms.zohopublic.com/frodriguezpla1/form/EntregableNro2/formperma/abf1HymgCAK8CKdwCARI3PDFNjpsUajcfeyExPeD4xQ'></iframe>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
                 <a href="javascript:history.back()" class="btn btn-outline-primary btn-back">
                     <i class="bi bi-arrow-left me-2"></i>Volver
