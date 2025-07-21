@@ -1,5 +1,5 @@
 ---
-layout: fullpage
+layout: default
 title: "Escenarios"
 nav_order: 02
 ---

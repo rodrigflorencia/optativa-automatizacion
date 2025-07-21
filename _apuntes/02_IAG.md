@@ -1,5 +1,5 @@
 ---
-layout: fullpage
+layout: default
 title: "IAG"
 nav_order: 02
 ---

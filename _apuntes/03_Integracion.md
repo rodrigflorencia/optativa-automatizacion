@@ -1,11 +1,10 @@
 ---
-layout: fullpage
+layout: default
 title: "Integracion"
 nav_order: 03
 ---
 
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

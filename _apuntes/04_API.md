@@ -1,10 +1,9 @@
 ---
-layout: fullpage
-skip_layout: true
+layout: default
 title: "API"
 nav_order: 04
 ---
-{{ content }}
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">

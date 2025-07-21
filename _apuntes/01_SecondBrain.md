@@ -1,5 +1,5 @@
 ---
-layout: fullpage
+layout: default
 title: "Secondbrain"
 nav_order: 01
 ---

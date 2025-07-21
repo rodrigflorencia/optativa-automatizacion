@@ -1,5 +1,5 @@
 ---
-layout: fullpage
+layout: default
 title: "Automatizacion"
 nav_order: 05
 ---
