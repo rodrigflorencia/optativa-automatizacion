@@ -1,3 +1,6 @@
+{% if page.skip_layout %}
+{{ content }}
+{% else %}
 <!DOCTYPE html>
 <html lang="es">
 
@@ -32,7 +35,7 @@
     <!-- Footer -->
     <footer class="text-center py-4">
         <div class="container">
-            <p class="mb-0">© {{ 'now' | date: "%Y" }} {{ site.title }} </p>
+            <p class="mb-0"> {{ 'now' | date: "%Y" }} {{ site.title }} </p>
         </div>
     </footer>
 
@@ -50,3 +53,4 @@
 </body>
 
 </html>
+{% endif %}

@@ -1,8 +1,10 @@
 ---
 layout: default
+skip_layout: true
 title: "API"
 nav_order: 4
 ---
+{{ content }}
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -392,8 +394,9 @@ Chatbot: Nuestros cursos incluyen tanto clases en vivo como material grabado. La
 
 <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;query&quot;</span><span class="p">:</span><span class="s2">&quot;Tokyo&quot;</span><span class="p">}</span>
 
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;x-rapidapi-host&#39;</span><span class="p">:</span> <span class="s2">&quot;skyscanner-skyscanner-flight-search-v1.p.rapidapi.com&quot;</span><span class="p">,</span>
-                      <span class="s1">&#39;x-rapidapi-key&#39;</span><span class="p">:</span> <span class="s2">&quot;&lt;introduce your RapidAPI key here&gt;&quot;</span><span class="p">}</span>
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;x-rapidapi-host&#39;</span><span class="p">:</span> <span class="s2">&quot;skyscanner-skyscanner-flight-search-v1.p.rapidapi.com&quot;</span><span class="p">,</span>
+    <span class="s1">&#39;x-rapidapi-key&#39;</span><span class="p">:</span> <span class="s2">&quot;&lt;introduce your RapidAPI key here&gt;&quot;</span><span class="p">}</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">,</span> <span class="n">params</span> <span class="o">=</span> <span class="n">params</span><span class="p">)</span>
 <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
