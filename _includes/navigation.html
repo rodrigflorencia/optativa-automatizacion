@@ -55,13 +55,21 @@
                     </ul>
                 </li>
 
-                <!-- Guías Dropdown -->
+                <!-- Materiales Dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="guiasDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" href="#" id="materialesDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        Guias
+                        Materiales
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="guiasDropdown">
+                    <ul class="dropdown-menu" aria-labelledby="materialesDropdown">
+                        <!-- Plan de la materia -->
+
+                        <li><a class="dropdown-item" href="{{ '/assets/pdfs/plan.pdf' | relative_url }}"
+                                target="_blank">
+                                Descargar plan
+                            </a></li>
+                        <!-- Guías -->
+
                         {% if site.guias and site.guias.size > 0 %}
                         {% assign guias = site.guias | sort: 'nav_order' %}
                         {% for guia in guias %}
@@ -74,16 +82,10 @@
                         {% else %}
                         <li><span class="dropdown-item text-muted">No hay guías disponibles</span></li>
                         {% endif %}
-                    </ul>
-                </li>
 
-                <!-- Diapositivas Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="diapositivasDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Diapositivas
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="diapositivasDropdown">
+
+                        <!-- Diapositivas -->
+
                         {% if site.diapositivas and site.diapositivas.size > 0 %}
                         {% assign diapositivas = site.diapositivas | sort: 'nav_order' %}
                         {% for diapositiva in diapositivas %}

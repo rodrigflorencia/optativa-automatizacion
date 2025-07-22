@@ -37,6 +37,10 @@ Algunas guías pueden requerir software específico que se detallará al inicio 
 
 La evaluación se realiza a través de trabajos prácticos y un proyecto final. La cursada se aprueba con la entrega de dos trabajos y el final se aprueba con el proyecto.
 
+Los trabajos de la cursada se entregan subiendo los archivos a un formulario. No requieren defensa, excepto el caso en que el profesor considere necesario.
+
+El proyecto final se entregará subiendo los archivos a un formulario y además requiere defensa oral presencial.
+
 ### **¿Hay fechas de entrega para las tareas?**
 
 Sí, cada tarea tiene una fecha límite que se especificará en la guía correspondiente.
@@ -55,7 +59,7 @@ Los entregables son similares a los que están en la página. Quizá se haga alg
 
 ### **¿Qué día se dicta la materia?**
 
-Posiblemente en septiembre / octubre los días jueves por la tarde.
+Posiblemente en septiembre / octubre los días jueves por la tarde. La modalidad será virtual.
 
 ---
 *Última actualización: Julio 2025*
