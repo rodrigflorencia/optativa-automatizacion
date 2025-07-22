@@ -409,9 +409,7 @@ title: "Inicio"
                         <h2 class="h3 fw-bold mb-4">¿Qué podrás hacer en este curso?</h2>
                         <p class="lead mb-4">Mira este video para ver ejemplos prácticos de lo que aprenderás</p>
                     </div>
-
                     <div class="ratio ratio-16x9 rounded-3 shadow">
-                        <!-- Reemplaza la URL con el enlace a tu video -->
                         <iframe src="https://www.youtube.com/embed/QZViDH79Gyo" title="Demo del curso de Automatización"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -447,7 +445,6 @@ title: "Inicio"
     </div>
 </div>
 
-<!-- Back to top functionality -->
 <!-- Teacher Modals -->
 <div class="modal fade" id="florModal" tabindex="-1" aria-labelledby="florModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -482,10 +479,6 @@ title: "Inicio"
                 <p>Standup</p>
                 <p>Director</p>
                 <p>Da ordenes</p>
-                <!--Desarrollador de soluciones innovadoras que
-                    combinan diferentes tecnologías para optimizar procesos. Comprometido con la educación y la
-                    transferencia de conocimiento en el área de tecnologías emergentes.-->
-                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -804,80 +797,13 @@ title: "Inicio"
     }
 </style>
 
-<!-- Back to top functionality -->
-<!-- Teacher Modals -->
-<div class="modal fade" id="florModal" tabindex="-1" aria-labelledby="florModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="florModalLabel">Florencia Rodríguez</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center">
-                <img src="{{ '/assets/images/00_Flor.png' | relative_url }}" alt="Florencia Rodríguez"
-                    class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
-                <p>Tiene dos gatas</p>
-                <p>Llega tarde</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="modal fade" id="crisModal" tabindex="-1" aria-labelledby="crisModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="crisModalLabel">Cristian Garcia Bauza</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center">
-                <img src="{{ '/assets/images/00_Bauza.png' | relative_url }}" alt="Cristian Garcia Bauza"
-                    class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
-                <p>Standup</p>
-                <p>Director</p>
-                <p>Da ordenes</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="bauzyModal" tabindex="-1" aria-labelledby="bauzyModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="bauzyModalLabel">Bauzy</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center">
-                <img src="{{ '/assets/images/00_Bauzy.png' | relative_url }}" alt="Bauzy"
-                    class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
-                <p>Chatbot</p>
-                <p>El que pudimos contratar</p>
-                <p>No tiene filtros</p>
-                <p>Tampoco buena onda</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
 <script>
     // Back to top button
     const backToTopButton = document.getElementById('backToMain');
 
     window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            backToTopButton.classList.add('visible');
-        } else {
-            backToTopButton.classList.remove('visible');
-        }
+        backToTopButton.classList.toggle('visible', window.pageYOffset > 300);
     });
 
     // Smooth scrolling for anchor links
@@ -886,14 +812,9 @@ title: "Inicio"
             e.preventDefault();
 
             const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                window.scrollTo({
-                    top: targetElement.offsetTop - 100,
-                    behavior: 'smooth'
-                });
+            if (targetId !== '#') {
+                const targetElement = document.querySelector(targetId);
+                targetElement?.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         });
     });
