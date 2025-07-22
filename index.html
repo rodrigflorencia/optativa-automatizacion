@@ -142,66 +142,71 @@ title: "Inicio"
             <h2 class="h3 fw-bold mb-4">Acceso rápido</h2>
         </div>
 
-        <div class="row g-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mx-0">
             <!-- Plan de la materia -->
-            <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm hover-lift">
-                    <div class="card-body p-4 text-center">
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm hover-lift d-flex flex-column equal-height-card" width="100%">
+                    <div class="card-body p-4 text-center d-flex flex-column">
                         <div class="icon-shape icon-xl bg-primary bg-opacity-10 text-primary rounded-4 mb-4">
                             <i class="bi bi-journal-text fs-2"></i>
                         </div>
                         <h3 class="h5 fw-bold mb-3">Plan de la materia</h3>
                         <p class="text-muted mb-4">Descarga el programa completo con todos los contenidos del curso.</p>
-                        <a href="{{ '/assets/pdfs/plan.pdf' | relative_url }}" target="_blank"
-                            class="btn btn-outline-primary w-100">
-                            <i class="bi bi-download me-2"></i>Descargar Plan
-                        </a>
+                        <div class="mt-auto">
+                            <a href="{{ '/assets/pdfs/plan.pdf' | relative_url }}" target="_blank"
+                                class="btn btn-outline-primary w-100">
+                                <i class="bi bi-download me-2"></i>Descargar Plan
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Docentes -->
-            <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm hover-lift">
-                    <div class="card-body p-4 text-center">
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm hover-lift d-flex flex-column equal-height-card" width="100%">
+                    <div class="card-body p-4 text-center d-flex flex-column">
                         <div class="icon-shape icon-xl bg-primary bg-opacity-10 text-primary rounded-4 mb-4">
                             <i class="bi bi-people fs-2"></i>
                         </div>
                         <h3 class="h5 fw-bold mb-3">Equipo docente</h3>
-                        <div class="teacher-list mb-4 text-start">
-                            <a href="#"
-                                class="d-flex align-items-center p-2 rounded-3 mb-2 text-dark text-decoration-none hover-bg"
-                                data-bs-toggle="modal" data-bs-target="#crisModal">
-                                <div class="avatar avatar-sm bg-primary bg-opacity-10 text-primary rounded-circle me-3">
-                                    <i class="bi bi-person-fill"></i>
-                                </div>
-                                <div>
-                                    <div class="fw-medium">Cristian Garcia Bauza</div>
-
-                                </div>
-                            </a>
-                            <a href="#"
-                                class="d-flex align-items-center p-2 rounded-3 text-dark text-decoration-none hover-bg"
-                                data-bs-toggle="modal" data-bs-target="#florModal">
-                                <div class="avatar avatar-sm bg-primary bg-opacity-10 text-primary rounded-circle me-3">
-                                    <i class="bi bi-person-fill"></i>
-                                </div>
-                                <div>
-                                    <div class="fw-medium">Florencia Rodríguez</div>
-                                </div>
+                        <div class="teacher-list w-100 text-center">
+                            <div class="d-flex flex-column align-items-center">
+                                <a href="#"
+                                    class="d-flex align-items-center p-2 rounded-3 mb-2 text-dark text-decoration-none hover-bg"
+                                    data-bs-toggle="modal" data-bs-target="#crisModal">
+                                    <div class="avatar avatar-sm bg-primary bg-opacity-10 text-primary rounded-circle me-3">
+                                        <i class="bi bi-person-fill"></i>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="fw-medium">Cristian Garcia Bauza</div>
+                                    </div>
+                                </a>
+                                <a href="#"
+                                    class="d-flex align-items-center p-2 rounded-3 text-dark text-decoration-none hover-bg"
+                                    data-bs-toggle="modal" data-bs-target="#florModal">
+                                    <div class="avatar avatar-sm bg-primary bg-opacity-10 text-primary rounded-circle me-3">
+                                        <i class="bi bi-person-fill"></i>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="fw-medium">Florencia Rodríguez</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-outline-primary w-100" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">
+                                <i class="bi bi-envelope me-2"></i>Contactar
                             </a>
                         </div>
-                        <a href="#" class="btn btn-outline-primary w-100" data-bs-toggle="modal"
-                            data-bs-target="#contactModal">
-                            <i class="bi bi-envelope me-2"></i>Contactar
-                        </a>
                     </div>
                 </div>
             </div>
 
             <!-- Chatbot -->
-            <div class="col-lg-4 col-md-6 mx-auto">
-                <div class="card h-100 border-0 shadow-sm hover-lift">
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm hover-lift d-flex flex-column equal-height-card" width="100%">
                     <div class="card-body p-4 text-center d-flex flex-column">
                         <div class="mb-4">
                             <img src="{{ '/assets/images/00_Bauzy.png' | relative_url }}" alt="Chatbot Bauzy"
@@ -424,7 +429,7 @@ title: "Inicio"
 
                     <div class="ratio ratio-16x9 rounded-3 shadow">
                         <!-- Reemplaza la URL con el enlace a tu video -->
-                        <iframe src="https://www.youtube.com/embed/pdGFThuI3DY" title="Demo del curso de Automatización"
+                        <iframe src="https://www.youtube.com/embed/QZViDH79Gyo" title="Demo del curso de Automatización"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
@@ -558,6 +563,24 @@ title: "Inicio"
     });
 </script>
 <style>
+    /* Estilo para igualar la altura de las tarjetas */
+    .equal-height-card {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .equal-height-card .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .equal-height-card .teacher-list {
+        flex: 1;
+        margin-bottom: 1rem;
+    }
+
     :root {
         --primary: #761a8d;
         --primary-light: #8e3ea5;
@@ -649,7 +672,7 @@ title: "Inicio"
         left: 0;
         right: 0;
         bottom: 0;
-        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         opacity: 0.5;
     }
 
@@ -799,6 +822,10 @@ title: "Inicio"
         border-radius: 0.5rem;
         padding: 1rem;
         cursor: pointer;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         background-color: white;
         border: 1px solid rgba(0, 0, 0, 0.05);
     }
