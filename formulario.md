@@ -11,11 +11,11 @@ nav_order: 100
                 <h1 class="display-5 fw-bold mb-3">Interesados</h1>
                 <p class="lead">Completa el siguiente formulario para inscribirte y recibir novedades del curso.</p>
             </div>
-            
+
             <div class="card border-0 shadow-sm mb-5">
                 <div class="card-body p-4 p-lg-5">
                    
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBanAK51H1ZlMKVi6sLQdQlzlIsRbntfP2jAFsT0WUW0jO8g/viewform?embedded=true" width="640" height="2000" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBanAK51H1ZlMKVi6sLQdQlzlIsRbntfP2jAFsT0WUW0jO8g/viewform?embedded=true" width="640" height="1500" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
                    
                 </div>
             </div>

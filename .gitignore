@@ -1,9 +1,7 @@
 assets\pptx
 _site
-plan.docx
+ignore
 html_output
-update_apuntes_layout.py
-convert_md_to_html.py
-knowledge_base.json
-links.md
-Chatbot_Integracion_API copy.ipynb
+.venv
+.github
+.gitignore

@@ -166,8 +166,8 @@ title: "Inicio"
             <div class="col">
                 <div class="card h-100 border-0 shadow-sm hover-lift d-flex flex-column equal-height-card" width="100%">
                     <div class="card-body p-4 text-center d-flex flex-column">
-                        <div class="icon-shape icon-xl bg-primary bg-opacity-10 text-primary rounded-4 mb-4">
-                            <i class="bi bi-people fs-2"></i>
+                        <div class="icon-wrapper icon-xl bg-primary bg-opacity-10 text-primary rounded-4 mb-4">
+                            <i class="bi bi-people-fill fs-2"></i>
                         </div>
                         <h3 class="h5 fw-bold mb-3">Equipo docente</h3>
                         <div class="teacher-list w-100 text-center">
@@ -175,7 +175,8 @@ title: "Inicio"
                                 <a href="#"
                                     class="d-flex align-items-center p-2 rounded-3 mb-2 text-dark text-decoration-none hover-bg"
                                     data-bs-toggle="modal" data-bs-target="#crisModal">
-                                    <div class="avatar avatar-sm bg-primary bg-opacity-10 text-primary rounded-circle me-3">
+                                    <div
+                                        class="avatar avatar-sm bg-primary bg-opacity-10 text-primary rounded-circle me-3">
                                         <i class="bi bi-person-fill"></i>
                                     </div>
                                     <div class="text-center">
@@ -185,7 +186,8 @@ title: "Inicio"
                                 <a href="#"
                                     class="d-flex align-items-center p-2 rounded-3 text-dark text-decoration-none hover-bg"
                                     data-bs-toggle="modal" data-bs-target="#florModal">
-                                    <div class="avatar avatar-sm bg-primary bg-opacity-10 text-primary rounded-circle me-3">
+                                    <div
+                                        class="avatar avatar-sm bg-primary bg-opacity-10 text-primary rounded-circle me-3">
                                         <i class="bi bi-person-fill"></i>
                                     </div>
                                     <div class="text-center">
@@ -532,36 +534,7 @@ title: "Inicio"
         </div>
     </div>
 </div>
-<script>
-    // Back to top button
-    const backToTopButton = document.getElementById('backToMain');
 
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            backToTopButton.classList.add('visible');
-        } else {
-            backToTopButton.classList.remove('visible');
-        }
-    });
-
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                window.scrollTo({
-                    top: targetElement.offsetTop - 100,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-</script>
 <style>
     /* Estilo para igualar la altura de las tarjetas */
     .equal-height-card {
@@ -885,10 +858,6 @@ title: "Inicio"
                 <p>Standup</p>
                 <p>Director</p>
                 <p>Da ordenes</p>
-                <!--Desarrollador de soluciones innovadoras que
-                    combinan diferentes tecnologías para optimizar procesos. Comprometido con la educación y la
-                    transferencia de conocimiento en el área de tecnologías emergentes.-->
-                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
